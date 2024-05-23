@@ -1,0 +1,104 @@
+/* Contact.module.css */
+.contact-container {
+  display: flex;
+  flex-direction:column;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 30px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  box-shadow: 0px 0px 20px rgba(255, 174, 0, 0.959);
+  margin: 10px;  
+}
+
+.contact-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-container{
+  display: flex;  
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.subcontainer{
+  display: flex;
+  flex-direction:column;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px; 
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(255, 174, 0, 1);
+  margin-bottom: 20px;
+  
+}
+.subcontainer-form{
+  display: flex;
+  flex-direction:column;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px; 
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(255, 174, 0, 1);
+  
+}
+
+
+ .contact-form {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  
+  width: 85%;
+  padding: 30px; 
+  
+  color: white;
+  
+}
+
+.contact-form input {
+  width:90%;  
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.subcontainer-form textarea{
+  width:90%;  
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.subcontainer-form  button {
+  display: flex;
+  flex-direction:column;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.796);
+  color: white;
+  box-shadow: 1px 1px 20px rgba(255, 174, 0, 0.959);
+}
+
+button:hover {
+  background-color: rgb(56, 56, 56);
+  box-shadow: 1px 1px 13px rgba(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255);
+}
+

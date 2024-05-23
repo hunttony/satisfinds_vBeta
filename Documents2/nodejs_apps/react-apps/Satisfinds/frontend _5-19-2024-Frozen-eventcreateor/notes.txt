@@ -1,0 +1,4 @@
+create a counter for number of hits on user's dashboard
+
+create image upload capability for users
+

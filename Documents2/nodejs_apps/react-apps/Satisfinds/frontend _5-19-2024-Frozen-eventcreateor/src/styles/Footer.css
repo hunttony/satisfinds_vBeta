@@ -1,0 +1,39 @@
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-icon:hover {
+  color: #00f; /* Change color on hover */
+}
+
+.social-icon:last-child {
+  margin-right: 0; /* Remove margin from last icon */
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 0 20px;
+  }
+}

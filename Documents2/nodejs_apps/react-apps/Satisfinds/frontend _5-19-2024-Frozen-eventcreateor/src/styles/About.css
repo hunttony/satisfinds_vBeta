@@ -1,0 +1,32 @@
+/* About.module.css */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  max-width: 600px;
+  max-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
+  box-shadow: 0px 0px 20px rgb(255, 136, 0);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.about-container h2{
+    color: rgb(255, 145, 0)
+}
+
+.about-text {
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+  color: white;
+  font-size: 22px;
+}
+
+
+
